@@ -18,7 +18,16 @@ docker ps
 
 curl http://localhost:49200/
 
-# Deploy in your local gitlab
+Options 
+# 1. Deploy in your local gitlab
+# 2. github and github actions
+# 3. amazon app service 
+
+Option 2
+Deployed to repository, repository url: 
+https://github.com/amarjothi/node-hello/blob/main/README.md
+
+
 
 
 
