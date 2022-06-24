@@ -18,12 +18,12 @@ docker ps
 
 curl http://localhost:49200/
 
-Options 
-# 1. Deploy in your local gitlab
-# 2. github and github actions
+Options  for deployment
+# 1. Deploy in your local gitlab, gitlab-runner terraform container, spin up ec2 instance, and do the installation.
+# 2. github and github actions for deployment
 # 3. amazon app service 
 
-Option 2
+Following Option 2 for deployment
 Deployed to repository, repository url: 
 https://github.com/amarjothi/node-hello/blob/main/README.md
 
