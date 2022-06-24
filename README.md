@@ -18,10 +18,12 @@ docker ps
 
 curl http://localhost:49200/
 
-Options  for deployment
+Options  for Deployment:
 # 1. Deploy in your local gitlab, gitlab-runner terraform container, spin up ec2 instance, and do the installation.
-# 2. github and github actions for deployment, this option deploys the container to Amazon Container registry and runs the workflow pipeline to deploy the application to Amazon Elastic Container Service
-# 3. amazon app service 
+
+# 2. github and github actions for deployment, this option deploys the container to Amazon Container registry and runs the workflow pipeline to deploy the application to Amazon Elastic Container Service, each commit to the github repo, causes the container to build and deploy.
+
+# 3. Using Amazon App Service 
 
 Following Option 2 for deployment
 Deployed to repository, repository url: 
