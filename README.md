@@ -20,12 +20,14 @@ curl http://localhost:49200/
 
 Options  for deployment
 # 1. Deploy in your local gitlab, gitlab-runner terraform container, spin up ec2 instance, and do the installation.
-# 2. github and github actions for deployment
+# 2. github and github actions for deployment, this option deploys the container to Amazon Container registry and runs the workflow pipeline to deploy the application to Amazon Elastic Container Service
 # 3. amazon app service 
 
 Following Option 2 for deployment
 Deployed to repository, repository url: 
 https://github.com/amarjothi/node-hello/blob/main/README.md
+
+
 
 
 
