@@ -10,11 +10,17 @@ Great for testing simple deployments to the cloud
 
 ## Build the docker file
 
-docker build . -t amar/node-web-app
+docker build . -t 702193001748.dkr.ecr.eu-west-2.amazonaws.com/node-repo
 
-docker run -p 49200:3000 -d amar/node-web-app
+docker run -p 49200:3000 -d 702193001748.dkr.ecr.eu-west-2.amazonaws.com/node-repo
 
 docker ps
+
+docker login -u AWS -p $(aws ecr get-login-password --region eu-west-2 --profile=dev) 702193001748.dkr.ecr.eu-west-2.amazonaws.com
+
+docker push 702193001748.dkr.ecr.eu-west-2.amazonaws.com/node-repo
+
+
 
 curl <http://localhost:49200/>
 
